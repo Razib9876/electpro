@@ -58,6 +58,7 @@
 import { ArrowDownRightIcon, StarIcon, TrendingUpIcon } from "lucide-react";
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import heroImage from "../assets/image/hero-image.jpg";
 
 export const HeroSection = () => {
   const [query, setQuery] = useState("");
@@ -147,7 +148,7 @@ export const HeroSection = () => {
 
       <div className="p-3 md:p-6 w-full mt-16 border-t border-gray-800">
         <img
-          src="src/assets/image/hero-image.jpg"
+          src={heroImage}
           alt="Hero Section Image"
           className="w-full h-[350px] md:h-[450px] lg:h-[500px] object-cover rounded-2xl"
         />
