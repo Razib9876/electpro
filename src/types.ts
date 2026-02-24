@@ -1,4 +1,13 @@
-import { LucideIcon } from "lucide-react";
+// import { LucideIcon } from "lucide-react";
+
+import type { ElementType } from "react";
+
+export interface IFeature {
+  title: string;
+  description: string;
+  icon: ElementType; // Can be rendered as <feature.icon />
+  link: string;
+}
 
 export interface Expart {
   name: string; // Officer Name
@@ -17,13 +26,6 @@ export interface Product {
   price?: string; // Optional price field
   sku?: string; // Optional SKU field
   link?: string; // Optional link to product page
-}
-
-export interface IFeature {
-  title: string;
-  description: string;
-  icon: any;
-  link: string;
 }
 
 export interface IWork {
