@@ -1,31 +1,29 @@
-// import { LucideIcon } from "lucide-react";
-
 import type { ElementType } from "react";
 
 export interface IFeature {
   title: string;
   description: string;
-  icon: ElementType; // Can be rendered as <feature.icon />
+  icon: ElementType;
   link: string;
 }
 
 export interface Expart {
-  name: string; // Officer Name
-  designation: string; // Officer Designation
-  office: string; // Office Name
-  address: string; // Full address
-  contact: string; // Phone / Email
-  image?: string; // Optional profile image
-  locationType: "Bangladesh" | "Singapore"; // Location filter
+  name: string;
+  designation: string;
+  office: string;
+  address: string;
+  contact: string;
+  image?: string;
+  locationType: "Bangladesh" | "Singapore";
 }
 
 export interface Product {
   name: string;
   description: string;
   image: string;
-  price?: string; // Optional price field
-  sku?: string; // Optional SKU field
-  link?: string; // Optional link to product page
+  price?: string;
+  sku?: string;
+  link?: string;
 }
 
 export interface IWork {
