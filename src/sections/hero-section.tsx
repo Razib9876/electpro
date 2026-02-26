@@ -20,16 +20,17 @@ export const HeroSection = () => {
   return (
     <>
       <div className="flex flex-col max-md:px-2 items-center justify-center">
-        <div className="mt-32 flex items-center justify-center gap-2">
+        <div className="mt-[80px] flex items-center justify-center gap-2">
           <TrendingUpIcon className="size-5" />
           Professional Electrical Knowledge Platform
         </div>
 
-        <h1 className="text-center font-urbanist text-[42px]/13 md:text-6xl/20 font-bold max-w-2xl bg-linear-to-r from-white to-white/50 bg-clip-text text-transparent">
+        <h1 className="text-center text-gray-700 font-urbanist text-[42px]/13 md:text-6xl/20 font-bold max-w-2xl ">
+          {/* bg-linear-to-r from-white to-white/50 bg-clip-text text-transparent */}
           Smart Electrical <span className="text-primary">Solutions</span>
         </h1>
 
-        <p className="text-center text-base text-zinc-300 max-w-lg mt-4">
+        <p className="text-center text-base text-gray-600 max-w-lg mt-4">
           Learn house wiring, DB board setup, load calculation, safety
           inspection and government regulations — powered by AI assistant.
         </p>
@@ -58,7 +59,7 @@ export const HeroSection = () => {
               Explore Services
             </button>
           </Link>
-          <button className="border border-gray-600 text-zinc-300 px-4 py-2.5 rounded-lg hover:bg-gray-900">
+          <button className="border border-gray-600 text-black px-4 py-2.5 rounded-lg hover:bg-gray-900 hover:text-white">
             Learn More
             <ArrowDownRightIcon className="ml-1 size-5 inline-flex" />
           </button>

@@ -24,7 +24,8 @@ import { AboutSection } from "./pages/About";
 
 function HomePage() {
   return (
-    <main className="mx-4 md:mx-16 lg:mx-24 xl:mx-32 border-x border-gray-800">
+    <main className="mx-4 md:mx-16 lg:mx-24 xl:mx-32 ">
+      {/* border-x border-gray-800 */}
       <HeroSection />
       <LogoMarquee />
       <FeatureSection />

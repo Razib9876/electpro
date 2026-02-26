@@ -7,7 +7,7 @@ export const FeatureSection = () => {
 
   return (
     <div className="flex flex-col items-center justify-center">
-      <div className="py-24">
+      <div className="py-[80px]">
         <SectionTitle
           title="Electrical Learning & Services"
           description="Professional electrician knowledge platform for wiring, DB board setup, safety inspection and regulations."

@@ -3,11 +3,16 @@ import { Link } from "react-router-dom";
 export const Footer = () => {
   return (
     <>
-      <footer className="px-6 md:px-16 lg:px-24 xl:px-32 border-t border-gray-800">
-        <div className="border-x p-8 md:p-14 border-gray-800 grid gap-12 md:grid-cols-2">
+      <footer className="px-6 md:px-16 lg:px-24 xl:px-32 border-t border-gray-800 bg-gray-100">
+        <div className=" p-8 md:p-14  grid gap-12 md:grid-cols-2">
           <div>
             <Link to="/" className="flex items-center gap-2">
-              <img src="/logo-mark.svg" alt="Logo" width={28} height={28} />
+              <img
+                src="public/web-app-manifest-512x512.png"
+                alt="Logo"
+                width={28}
+                height={28}
+              />
               <h1 className="text-xl">Electpro</h1>
             </Link>
             <p className="mt-6 text-sm/7 max-w-sm text-gray-500">

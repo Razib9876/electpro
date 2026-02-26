@@ -34,17 +34,12 @@ const logos = [
 
 export const LogoMarquee = () => {
   return (
-    <section className="relative w-full border-y border-gray-800 bg-black overflow-hidden">
+    <section className="relative w-full border-y border-gray-800 overflow-hidden">
       {/* Top Fade Gradient */}
-      <div className="pointer-events-none absolute inset-y-0 left-0 w-32 bg-gradient-to-r from-black to-transparent z-10" />
-      <div className="pointer-events-none absolute inset-y-0 right-0 w-32 bg-gradient-to-l from-black to-transparent z-10" />
+      {/* <div className="pointer-events-none absolute inset-y-0 left-0 w-32 bg-gradient-to-r from-black to-transparent z-10" />
+      <div className="pointer-events-none absolute inset-y-0 right-0 w-32 bg-gradient-to-l from-black to-transparent z-10" /> */}
 
-      <div className="max-w-7xl mx-auto px-6 md:px-16 py-14">
-        {/* Section Title */}
-        <p className="text-center text-sm tracking-widest uppercase text-gray-500 mb-10">
-          Trusted by Industrial Partners
-        </p>
-
+      <div className="max-w-8xl mx-auto   py-14">
         {/* Marquee */}
         <Marquee speed={35} gradient={false} pauseOnHover>
           <div className="flex items-center gap-20 pr-20">

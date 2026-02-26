@@ -3,8 +3,8 @@ import { works } from "../data/works";
 
 export const WorkSection = () => {
   return (
-    <div className="flex flex-col items-center justify-center mt-30 border-t border-gray-800">
-      <div className="pt-24 pb-6">
+    <div className="flex flex-col items-center justify-center mt-[80px]">
+      <div className=" pb-6">
         <SectionTitle
           title="Our Electrical Projects"
           description="Explore the latest electrical works by our experts, from home wiring to mega DB board installations."
