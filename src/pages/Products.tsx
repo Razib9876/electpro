@@ -7,7 +7,7 @@ export const Products = () => {
   const products: Product[] = productData[activeTab];
 
   return (
-    <main className="mx-4 md:mx-16 lg:mx-24 xl:mx-32 border-x border-gray-800 py-24">
+    <main className="mx-4 md:mx-16 lg:mx-24 xl:mx-32 py-24">
       {/* Page Header */}
       <div className="text-center mb-14">
         <h1 className="text-3xl md:text-4xl font-bold">Electrical Tools</h1>
@@ -38,15 +38,19 @@ export const Products = () => {
         {products.map((product, index) => (
           <div
             key={index}
-            className="border border-gray-800 rounded-xl p-4 hover:bg-white/5 transition duration-300"
+            className="border border-gray-800 rounded-xl  hover:bg-white/5 transition duration-300"
           >
             <img
               src={product.image}
               alt={product.name}
-              className="w-full h-32 object-contain rounded-lg mb-3"
+              className="w-full object-contain rounded-t-xl  "
             />
-            <h3 className="text-lg font-semibold">{product.name}</h3>
-            <p className="text-gray-400 mt-1 text-sm">{product.description}</p>
+            <div className="p-4">
+              <h3 className="text-lg font-semibold">{product.name}</h3>
+              <p className="text-gray-400 mt-1 text-sm">
+                {product.description}
+              </p>
+            </div>
           </div>
         ))}
       </div>

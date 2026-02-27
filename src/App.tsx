@@ -24,8 +24,7 @@ import { AboutSection } from "./pages/About";
 
 function HomePage() {
   return (
-    <main className="mx-4 md:mx-16 lg:mx-24 xl:mx-32 ">
-      {/* border-x border-gray-800 */}
+    <main className="mx-4 md:mx-16 lg:mx-24 xl:mx-32">
       <HeroSection />
       <LogoMarquee />
       <FeatureSection />
@@ -39,25 +38,33 @@ function HomePage() {
 
 export default function App() {
   return (
-    <>
+    <div
+      className="min-h-screen flex flex-col
+  bg-white dark:bg-gray-900
+  text-black dark:text-white
+  transition-colors duration-300"
+    >
       <LenisScroll />
+
       <Navbar />
 
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/chat" element={<ChatPage />} />
-        <Route path="/home-wiring" element={<HomeWiring />} />
-        <Route path="/db-board" element={<DBBoard />} />
-        <Route path="/load-calculation" element={<LoadCalculation />} />
-        <Route path="/safety-inspection" element={<SafetyInspection />} />
-        <Route path="/electrical-study" element={<ElectricalStudy />} />
-        <Route path="/govt-rules" element={<GovtRules />} />
-        <Route path="/products" element={<Products />} />
-        <Route path="/exparts" element={<ExpartsSection />} />
-        <Route path="/about" element={<AboutSection />} />
-      </Routes>
+      <div className="flex-grow">
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/chat" element={<ChatPage />} />
+          <Route path="/home-wiring" element={<HomeWiring />} />
+          <Route path="/db-board" element={<DBBoard />} />
+          <Route path="/load-calculation" element={<LoadCalculation />} />
+          <Route path="/safety-inspection" element={<SafetyInspection />} />
+          <Route path="/electrical-study" element={<ElectricalStudy />} />
+          <Route path="/govt-rules" element={<GovtRules />} />
+          <Route path="/products" element={<Products />} />
+          <Route path="/exparts" element={<ExpartsSection />} />
+          <Route path="/about" element={<AboutSection />} />
+        </Routes>
+      </div>
 
       <Footer />
-    </>
+    </div>
   );
 }

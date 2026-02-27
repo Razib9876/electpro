@@ -1,4 +1,5 @@
 import type { Expart } from "../types";
+import expertImage from "../assets/exparts/image-beaming-proud-electrical-engineer-front-power-plant-s-control-panel_28914-33332.jpg";
 
 export const exparts: Expart[] = [
   {
@@ -8,6 +9,7 @@ export const exparts: Expart[] = [
     address: "123 Motijheel, Dhaka, Bangladesh",
     contact: "+880123456789",
     locationType: "Bangladesh",
+    image: expertImage,
   },
   {
     name: "Tan Wei Ling",
@@ -16,6 +18,7 @@ export const exparts: Expart[] = [
     address: "10 Maxwell Rd, Singapore",
     contact: "+65 6123 4567",
     locationType: "Singapore",
+    image: expertImage,
   },
   {
     name: "Ayesha Karim",
@@ -24,6 +27,7 @@ export const exparts: Expart[] = [
     address: "45 Agrabad C/A, Chittagong, Bangladesh",
     contact: "+880987654321",
     locationType: "Bangladesh",
+    image: expertImage,
   },
   {
     name: "Lee Kuan",
@@ -32,6 +36,7 @@ export const exparts: Expart[] = [
     address: "20 Jurong Rd, Singapore",
     contact: "+65 6234 5678",
     locationType: "Singapore",
+    image: expertImage,
   },
   {
     name: "Sadia Hossain",
@@ -40,6 +45,7 @@ export const exparts: Expart[] = [
     address: "88 Banani Rd, Dhaka, Bangladesh",
     contact: "+880112233445",
     locationType: "Bangladesh",
+    image: expertImage,
   },
   {
     name: "Koh Mei Ling",
@@ -48,6 +54,7 @@ export const exparts: Expart[] = [
     address: "50 Shenton Way, Singapore",
     contact: "+65 6345 6789",
     locationType: "Singapore",
+    image: expertImage,
   },
   {
     name: "Rezaul Karim",
@@ -56,6 +63,7 @@ export const exparts: Expart[] = [
     address: "12 Foy’s Lake Rd, Chittagong, Bangladesh",
     contact: "+880123987654",
     locationType: "Bangladesh",
+    image: expertImage,
   },
   {
     name: "Ng Wei Jie",
@@ -64,6 +72,7 @@ export const exparts: Expart[] = [
     address: "15 Tuas Rd, Singapore",
     contact: "+65 6789 1234",
     locationType: "Singapore",
+    image: expertImage,
   },
   {
     name: "Fatema Begum",
@@ -72,6 +81,7 @@ export const exparts: Expart[] = [
     address: "77 Gulshan Ave, Dhaka, Bangladesh",
     contact: "+880198765432",
     locationType: "Bangladesh",
+    image: expertImage,
   },
   {
     name: "Lim Jun Hao",
@@ -80,6 +90,7 @@ export const exparts: Expart[] = [
     address: "30 Raffles Quay, Singapore",
     contact: "+65 6890 2345",
     locationType: "Singapore",
+    image: expertImage,
   },
   {
     name: "Nasima Akter",
@@ -88,6 +99,7 @@ export const exparts: Expart[] = [
     address: "9 Agrabad C/A, Chittagong, Bangladesh",
     contact: "+880176543210",
     locationType: "Bangladesh",
+    image: expertImage,
   },
   {
     name: "Chen Wei Ming",
@@ -96,6 +108,7 @@ export const exparts: Expart[] = [
     address: "25 Jurong Rd, Singapore",
     contact: "+65 6234 1234",
     locationType: "Singapore",
+    image: expertImage,
   },
   {
     name: "Shakil Ahmed",
@@ -104,6 +117,7 @@ export const exparts: Expart[] = [
     address: "34 Motijheel, Dhaka, Bangladesh",
     contact: "+880123443211",
     locationType: "Bangladesh",
+    image: expertImage,
   },
   {
     name: "Tan Li Wei",
@@ -112,6 +126,7 @@ export const exparts: Expart[] = [
     address: "12 Maxwell Rd, Singapore",
     contact: "+65 6123 9876",
     locationType: "Singapore",
+    image: expertImage,
   },
   {
     name: "Rashida Begum",
@@ -120,6 +135,7 @@ export const exparts: Expart[] = [
     address: "23 Foy’s Lake Rd, Chittagong, Bangladesh",
     contact: "+880198123456",
     locationType: "Bangladesh",
+    image: expertImage,
   },
   {
     name: "Goh Pei Ling",
@@ -128,6 +144,7 @@ export const exparts: Expart[] = [
     address: "22 Tuas Rd, Singapore",
     contact: "+65 6789 4321",
     locationType: "Singapore",
+    image: expertImage,
   },
   {
     name: "Habib Ullah",
@@ -136,6 +153,7 @@ export const exparts: Expart[] = [
     address: "66 Banani Rd, Dhaka, Bangladesh",
     contact: "+880112345678",
     locationType: "Bangladesh",
+    image: expertImage,
   },
   {
     name: "Ong Kai Jun",
@@ -144,6 +162,7 @@ export const exparts: Expart[] = [
     address: "40 Shenton Way, Singapore",
     contact: "+65 6345 4321",
     locationType: "Singapore",
+    image: expertImage,
   },
   {
     name: "Mousumi Sultana",
@@ -152,6 +171,7 @@ export const exparts: Expart[] = [
     address: "18 Agrabad C/A, Chittagong, Bangladesh",
     contact: "+880176598765",
     locationType: "Bangladesh",
+    image: expertImage,
   },
   {
     name: "Lim Wei Xiang",
@@ -160,6 +180,7 @@ export const exparts: Expart[] = [
     address: "18 Jurong Rd, Singapore",
     contact: "+65 6234 8765",
     locationType: "Singapore",
+    image: expertImage,
   },
   {
     name: "Sabbir Hossain",
@@ -168,6 +189,7 @@ export const exparts: Expart[] = [
     address: "55 Gulshan Ave, Dhaka, Bangladesh",
     contact: "+880198765123",
     locationType: "Bangladesh",
+    image: expertImage,
   },
   {
     name: "Ng Pei Wen",
@@ -176,6 +198,7 @@ export const exparts: Expart[] = [
     address: "5 Raffles Quay, Singapore",
     contact: "+65 6890 3456",
     locationType: "Singapore",
+    image: expertImage,
   },
   {
     name: "Tahmina Akhter",
@@ -184,6 +207,7 @@ export const exparts: Expart[] = [
     address: "32 Agrabad C/A, Chittagong, Bangladesh",
     contact: "+880176512345",
     locationType: "Bangladesh",
+    image: expertImage,
   },
   {
     name: "Chong Wei Liang",
@@ -192,6 +216,7 @@ export const exparts: Expart[] = [
     address: "28 Tuas Rd, Singapore",
     contact: "+65 6789 5432",
     locationType: "Singapore",
+    image: expertImage,
   },
   {
     name: "Fahim Reza",
@@ -200,6 +225,7 @@ export const exparts: Expart[] = [
     address: "99 Motijheel, Dhaka, Bangladesh",
     contact: "+880123498765",
     locationType: "Bangladesh",
+    image: expertImage,
   },
   {
     name: "Tan Xin Yi",
@@ -208,6 +234,7 @@ export const exparts: Expart[] = [
     address: "16 Maxwell Rd, Singapore",
     contact: "+65 6123 6543",
     locationType: "Singapore",
+    image: expertImage,
   },
   {
     name: "Mim Rashid",
@@ -216,6 +243,7 @@ export const exparts: Expart[] = [
     address: "50 Foy’s Lake Rd, Chittagong, Bangladesh",
     contact: "+880198765987",
     locationType: "Bangladesh",
+    image: expertImage,
   },
   {
     name: "Lee Jun Hao",
@@ -224,5 +252,6 @@ export const exparts: Expart[] = [
     address: "10 Jurong Rd, Singapore",
     contact: "+65 6234 4321",
     locationType: "Singapore",
+    image: expertImage,
   },
 ];

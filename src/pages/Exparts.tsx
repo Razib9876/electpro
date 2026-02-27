@@ -13,7 +13,7 @@ export const ExpartsSection = () => {
   );
 
   return (
-    <div className="flex flex-col items-center justify-center py-24 mx-4 md:mx-16 lg:mx-24 xl:mx-32 border-x border-gray-800">
+    <div className="flex flex-col items-center justify-center py-24 mx-4 md:mx-16 lg:mx-24 xl:mx-32 ">
       <SectionTitle
         title="Our Electrical Experts"
         description="All govt. electrical office locations and officer contacts for easy access."
@@ -38,20 +38,22 @@ export const ExpartsSection = () => {
         {filteredExparts.map((expart, index) => (
           <div
             key={index}
-            className="border border-gray-800 rounded-xl p-6 hover:bg-white/5 transition"
+            className="border border-gray-800 rounded-xl  hover:bg-white/5 transition"
           >
             {expart.image && (
               <img
                 src={expart.image}
                 alt={expart.name}
-                className="w-16 h-16 rounded-full mb-4"
+                className=" rounded-t-xl "
               />
             )}
-            <h3 className="text-lg font-semibold">{expart.name}</h3>
-            <p className="text-sm text-zinc-400">{expart.designation}</p>
-            <p className="text-sm mt-2">{expart.office}</p>
-            <p className="text-sm text-gray-500">{expart.address}</p>
-            <p className="text-sm mt-1 text-primary">{expart.contact}</p>
+            <div className="p-6">
+              <h3 className="text-lg font-semibold">{expart.name}</h3>
+              <p className="text-sm text-zinc-400">{expart.designation}</p>
+              <p className="text-sm mt-2">{expart.office}</p>
+              <p className="text-sm text-gray-500">{expart.address}</p>
+              <p className="text-sm mt-1 text-primary">{expart.contact}</p>
+            </div>
           </div>
         ))}
       </div>
