@@ -24,14 +24,16 @@ import { AboutSection } from "./pages/About";
 
 function HomePage() {
   return (
-    <main className="mx-4 md:mx-16 lg:mx-24 xl:mx-32">
+    <main>
       <HeroSection />
       <LogoMarquee />
-      <FeatureSection />
-      <WorkSection />
-      <TestimonialSection />
-      <FaqSection />
-      <CtaSection />
+      <div className="mx-4 md:mx-16 lg:mx-24 xl:mx-32">
+        <FeatureSection />
+        <WorkSection />
+        <TestimonialSection />
+        <FaqSection />
+        <CtaSection />
+      </div>
     </main>
   );
 }
